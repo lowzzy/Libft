@@ -14,40 +14,40 @@ NAME := libft.a
 CFLAGS := -Wall -Wextra -Werror
 CC := gcc
 AR := ar rc
-SRCS :=	ft_atoi.c \
-	ft_bzero.c \
-	ft_calloc.c \
-	ft_isalnum.c \
-	ft_isalpha.c \
-	ft_isascii.c \
-	ft_isdigit.c \
-	ft_isprint.c \
-	ft_memccpy.c \
-	ft_memchr.c \
-	ft_memcmp.c \
-	ft_memcpy.c \
-	ft_memmove.c \
-	ft_memset.c \
-	ft_strchr.c \
-	ft_strdup.c \
-	ft_strlcat.c \
-	ft_strlcpy.c \
-	ft_strlen.c \
-	ft_strncmp.c \
-	ft_strnstr.c \
-	ft_strrchr.c \
-	ft_tolower.c \
-	ft_toupper.c \
-	ft_itoa.c \
-	ft_putchar_fd.c \
-	ft_putendl_fd.c \
-	ft_putnbr_fd.c \
-	ft_putstr_fd.c \
-	ft_strjoin.c \
-	ft_substr.c \
-	ft_strtrim.c \
-	ft_strmapi.c \
-	ft_split.c 
+SRCS :=	Libc/ft_atoi.c \
+	Libc/ft_bzero.c \
+	Libc/ft_calloc.c \
+	Libc/ft_isalnum.c \
+	Libc/ft_isalpha.c \
+	Libc/ft_isascii.c \
+	Libc/ft_isdigit.c \
+	Libc/ft_isprint.c \
+	Libc/ft_memccpy.c \
+	Libc/ft_memchr.c \
+	Libc/ft_memcmp.c \
+	Libc/ft_memcpy.c \
+	Libc/ft_memmove.c \
+	Libc/ft_memset.c \
+	Libc/ft_strchr.c \
+	Libc/ft_strdup.c \
+	Libc/ft_strlcat.c \
+	Libc/ft_strlcpy.c \
+	Libc/ft_strlen.c \
+	Libc/ft_strncmp.c \
+	Libc/ft_strnstr.c \
+	Libc/ft_strrchr.c \
+	Libc/ft_tolower.c \
+	Libc/ft_toupper.c \
+	Additional/ft_itoa.c \
+	Additional/ft_putchar_fd.c \
+	Additional/ft_putendl_fd.c \
+	Additional/ft_putnbr_fd.c \
+	Additional/ft_putstr_fd.c \
+	Additional/ft_strjoin.c \
+	Additional/ft_substr.c \
+	Additional/ft_strtrim.c \
+	Additional/ft_strmapi.c \
+	Additional/ft_split.c 
 OBJS := $(SRCS:.c=.o)
 
 all:$(NAME)
