@@ -73,6 +73,6 @@ char		*ft_itoa(int n)
 		n *= (-1);
 	}
 	str = ft_main_itoa(n, str, i);
-	str[ft_count_digit(n) + 1] = '\0';
+	str[ft_count_digit(n)] = '\0';
 	return (str);
 }
