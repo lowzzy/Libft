@@ -6,7 +6,7 @@
 /*   By: mnarazak <mnarazak@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/11 12:18:53 by mnarazak          #+#    #+#             */
-/*   Updated: 2020/07/18 12:06:52 by mnarazak         ###   ########.fr       */
+/*   Updated: 2020/11/28 00:54:07 by mnarazak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+# include "mine.h"
 
 int			ft_atoi(const char *s);
 void		ft_bzero(void *s, size_t n);
